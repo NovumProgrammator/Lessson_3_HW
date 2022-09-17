@@ -7,8 +7,6 @@ OutputJobTitlesOfAllEmployeesWhoIsNotAManager(dataset);
 OutputJobTitlesAndBithDatesOfAllManagersOlderThen30(dataset);
 OutputJobTitlesAndEmployessCountOfManagersWhoesDepartmentsHaveMoreThen5Employees(dataset);
 
-Console.ReadLine();
-
 static void OutputJobTitlesOfAllEmployeesWhoseBossIsCEO(IList<Person> dataset)
 {
     Console.ForegroundColor = ConsoleColor.Cyan;
